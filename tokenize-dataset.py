@@ -1,7 +1,7 @@
 import os, argparse
 import numpy as np
 from xval.preprocess import extract_all_keys, tokenize_fnc, convert_num_string
-from xval.tokenizer import make_tokenizer
+from xval import make_tokenizer
 from datasets import DatasetDict
 from transformers import PreTrainedTokenizerFast
 import yaml 
